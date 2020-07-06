@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="heading1" max="32767" attributes="0"/>
+                              <Component id="image1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="288" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="t1" max="32767" attributes="0"/>
+                                      <Component id="currency1" pref="332" max="32767" attributes="0"/>
+                                      <Component id="fromcountry" alignment="0" min="-2" pref="278" max="-2" attributes="0"/>
+                                      <Component id="currencyunits1" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="currency2" pref="327" max="32767" attributes="0"/>
+                                      <Component id="t2" max="32767" attributes="0"/>
+                                      <Component id="tocountry" min="-2" pref="253" max="-2" attributes="0"/>
+                                      <Component id="currencyunits2" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="convert" min="-2" pref="166" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="233" max="-2" attributes="0"/>
+                                  <Component id="exit" min="-2" pref="166" max="-2" attributes="0"/>
+                                  <EmptySpace pref="237" max="32767" attributes="0"/>
+                                  <Component id="reset" min="-2" pref="166" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Component id="heading1" min="-2" pref="49" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="image1" min="-2" pref="87" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="fromcountry" pref="37" max="32767" attributes="0"/>
+                      <Component id="tocountry" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="currency2" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                      <Component id="currency1" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="t1" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                      <Component id="t2" alignment="3" min="-2" pref="67" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="currencyunits1" pref="43" max="32767" attributes="0"/>
+                      <Component id="currencyunits2" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="91" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="exit" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                      <Component id="reset" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                      <Component id="convert" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="image1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images.jpg"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="heading1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="36" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="      Currency Converter"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="currency1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="11">
+                <StringItem index="0" value="Choose One.."/>
+                <StringItem index="1" value="Australian Dollar"/>
+                <StringItem index="2" value="US Dollar"/>
+                <StringItem index="3" value="Nigerian Naira"/>
+                <StringItem index="4" value="Brazilian Real"/>
+                <StringItem index="5" value="Canadian Dollar"/>
+                <StringItem index="6" value="Kenyan Shilling"/>
+                <StringItem index="7" value="Indonesian Rupiah"/>
+                <StringItem index="8" value="Indian Rupee"/>
+                <StringItem index="9" value="Philippine Pisco"/>
+                <StringItem index="10" value="Pakistani Rupee"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="currency1ItemStateChanged"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="currency2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="11">
+                <StringItem index="0" value="Choose One.."/>
+                <StringItem index="1" value="Australian Dollar"/>
+                <StringItem index="2" value="US Dollar"/>
+                <StringItem index="3" value="Nigerian Naira"/>
+                <StringItem index="4" value="Brazilian Real"/>
+                <StringItem index="5" value="Canadian Dollar"/>
+                <StringItem index="6" value="Kenyan Shilling"/>
+                <StringItem index="7" value="Indonesian  Rupiah"/>
+                <StringItem index="8" value="Indian Rupee"/>
+                <StringItem index="9" value="Philippine Pisco"/>
+                <StringItem index="10" value="Pakistani Rupee"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="currency2ItemStateChanged"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="t1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="t2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="fromcountry">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="From Currency"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tocountry">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="To Currency"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currencyunits1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Units"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currencyunits2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Units"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="reset">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Reset"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="exit">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="convert">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Convert"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="convertActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="heading2" alignment="1" max="32767" attributes="0"/>
+                              <Component id="image2" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="288" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="currencyfield3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="currency3" alignment="0" pref="332" max="32767" attributes="0"/>
+                                      <Component id="fromcountry1" alignment="0" min="-2" pref="278" max="-2" attributes="0"/>
+                                      <Component id="currencyunits3" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="currency4" alignment="0" pref="327" max="32767" attributes="0"/>
+                                      <Component id="currencyfield4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="tocountry1" alignment="0" min="-2" pref="253" max="-2" attributes="0"/>
+                                      <Component id="currencyunits4" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="convert1" min="-2" pref="166" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="233" max="-2" attributes="0"/>
+                                  <Component id="exit1" min="-2" pref="166" max="-2" attributes="0"/>
+                                  <EmptySpace pref="237" max="32767" attributes="0"/>
+                                  <Component id="reset1" min="-2" pref="166" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Component id="heading2" min="-2" pref="49" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="image2" min="-2" pref="87" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="fromcountry1" alignment="0" pref="37" max="32767" attributes="0"/>
+                      <Component id="tocountry1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="currency4" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                      <Component id="currency3" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="currencyfield3" alignment="3" min="-2" pref="66" max="-2" attributes="0"/>
+                      <Component id="currencyfield4" alignment="3" min="-2" pref="67" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="currencyunits3" alignment="0" pref="43" max="32767" attributes="0"/>
+                      <Component id="currencyunits4" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="91" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="exit1" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                      <Component id="reset1" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                      <Component id="convert1" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="image2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images.jpg"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="heading2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="66" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="36" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="      Currency Converter"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="currency3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="25">
+                <StringItem index="0" value="Australian Dollar"/>
+                <StringItem index="1" value="Argentina Peso"/>
+                <StringItem index="2" value="Brazilian Real"/>
+                <StringItem index="3" value="British Pound Sterling"/>
+                <StringItem index="4" value="Canadian Dollar"/>
+                <StringItem index="5" value="Chilean Peso"/>
+                <StringItem index="6" value="Chinese Yuan Renminbi"/>
+                <StringItem index="7" value="Egyptian Pound"/>
+                <StringItem index="8" value="Euro"/>
+                <StringItem index="9" value="Hong Kong Dollar"/>
+                <StringItem index="10" value="Indian Rupee"/>
+                <StringItem index="11" value="Japanese Yen"/>
+                <StringItem index="12" value="Mexican Peso"/>
+                <StringItem index="13" value="New Taiwan Dollar"/>
+                <StringItem index="14" value="New Zealand Dollar"/>
+                <StringItem index="15" value="Norwegian Krone"/>
+                <StringItem index="16" value="Pakistani Rupee"/>
+                <StringItem index="17" value="Romanian Leu"/>
+                <StringItem index="18" value="Russian Ruble"/>
+                <StringItem index="19" value="Singapore Dollar"/>
+                <StringItem index="20" value="South African Rand"/>
+                <StringItem index="21" value="South Korean Won"/>
+                <StringItem index="22" value="Swiss Franc "/>
+                <StringItem index="23" value="Turkish Lira"/>
+                <StringItem index="24" value="US Dollar "/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="currency4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="25">
+                <StringItem index="0" value="Australian Dollar"/>
+                <StringItem index="1" value="Argentina Peso"/>
+                <StringItem index="2" value="Brazilian Real"/>
+                <StringItem index="3" value="British Pound Sterling"/>
+                <StringItem index="4" value="Canadian Dollar"/>
+                <StringItem index="5" value="Chilean Peso"/>
+                <StringItem index="6" value="Chinese Yuan Renminbi"/>
+                <StringItem index="7" value="Egyptian Pound"/>
+                <StringItem index="8" value="Euro"/>
+                <StringItem index="9" value="Hong Kong Dollar"/>
+                <StringItem index="10" value="Indian Rupee"/>
+                <StringItem index="11" value="Japanese Yen"/>
+                <StringItem index="12" value="Mexican Peso"/>
+                <StringItem index="13" value="New Taiwan Dollar"/>
+                <StringItem index="14" value="New Zealand Dollar"/>
+                <StringItem index="15" value="Norwegian Krone"/>
+                <StringItem index="16" value="Pakistani Rupee"/>
+                <StringItem index="17" value="Romanian Leu"/>
+                <StringItem index="18" value="Russian Ruble"/>
+                <StringItem index="19" value="Singapore Dollar"/>
+                <StringItem index="20" value="South African Rand"/>
+                <StringItem index="21" value="South Korean Won"/>
+                <StringItem index="22" value="Swiss Franc "/>
+                <StringItem index="23" value="Turkish Lira"/>
+                <StringItem index="24" value="US Dollar "/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="currencyfield3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="currencyfield4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="fromcountry1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="From Country"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tocountry1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="To Country"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currencyunits3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Units"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currencyunits4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="Units"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="reset1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Reset"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="exit1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="convert1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Convert"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
